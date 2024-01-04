@@ -6,7 +6,8 @@ from email_service import send_email_with_attachment
 import os
 
 app = Flask(__name__)
-CORS(app, resources={r"/generate-statement": {"origins": "http://localhost:3000"}})  # Enable CORS for all routes
+# Configure CORS to allow both localhost and your GitHub Pages domain
+CORS(app, resources={r"/generate-statement": {"origins": ["http://localhost:3000", "https://haseebsyd.github.io"]}})
 
 @app.route('/')
 def home():

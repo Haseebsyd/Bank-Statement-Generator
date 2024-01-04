@@ -38,9 +38,10 @@ function App() {
       lastName: formData.lastName,
       email: formData.email,
     };
-  
+    
+    const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
     // Make the POST request to the backend
-    fetch('http://127.0.0.1:5000/generate-statement', {
+    fetch(`${backendUrl}/generate-statement`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
