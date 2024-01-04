@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Bank-Statement-Generator/static/css/main.a30d3631.css",
+    "main.js": "/Bank-Statement-Generator/static/js/main.2caa474e.js",
+    "static/media/bg_pic.jpg": "/Bank-Statement-Generator/static/media/bg_pic.0ff1703a9a79b0171ec3.jpg",
+    "index.html": "/Bank-Statement-Generator/index.html",
+    "main.a30d3631.css.map": "/Bank-Statement-Generator/static/css/main.a30d3631.css.map",
+    "main.2caa474e.js.map": "/Bank-Statement-Generator/static/js/main.2caa474e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a30d3631.css",
+    "static/js/main.2caa474e.js"
+  ]
+}
