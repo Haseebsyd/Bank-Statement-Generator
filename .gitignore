@@ -1,0 +1,57 @@
+# Dependency directories
+node_modules/
+venv/
+__pycache__/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local development
+.env.local
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python byte-code files
+*.py[cod]
+
+# Package directories
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+lib/
+lib64/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Log files
+*.log
+
+# Other
+*.sqlite
