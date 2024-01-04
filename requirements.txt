@@ -1,4 +1,4 @@
 Flask==3.0.0
 Flask-CORS==4.0.0
-pandas==2.1.3
+pandas==1.4.3
 fpdf==1.7.2
